@@ -8,9 +8,8 @@ const HandlingForms = () => {
     }
 
     const handleSubmit = (event) => {
-        // Esto no funciona y no se por qué
-        //alert('You typed: ${text}');
-        alert('You typed: ' + text)
+        alert(`You typed: ${text}`);
+        //alert('You typed: ' + text)
         event.preventDefault();
     }
 
